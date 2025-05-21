@@ -1,6 +1,15 @@
-package com.sniper.aiservice.dto;/** 
+package com.sniper.aiservice.dto;
+
+import lombok.Data;
+
+import java.io.Serializable;
+
+/**
  * sniper
  * 2025/5/20 下午5:01
  */
-public class RequestDto {
+@Data
+public class RequestDto implements Serializable {
+
+    private String question;
 }

@@ -1,1 +1,11 @@
-spring.application.name=ai-service
+spring:
+  application:
+    name: ai-service
+server:
+  port: 8060
+
+
+qwen:
+  apiKey:
+  model: qwen-plus
+

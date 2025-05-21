@@ -1,4 +1,4 @@
-package com.sniper.leetcodereview.config;
+package com.sniper.aiservice.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -9,7 +9,7 @@ import org.springframework.web.filter.CorsFilter;
 import java.util.Collections;
 
 /**
- * @Description TODO
+ * @Description
  * @Author sniper
  * @Date 2023/6/25 1:46 AM
  **/

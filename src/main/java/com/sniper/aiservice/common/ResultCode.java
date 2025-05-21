@@ -1,4 +1,4 @@
-package com.sniper.leetcodereview.common;
+package com.sniper.aiservice.common;
 
 /**
  * @Description

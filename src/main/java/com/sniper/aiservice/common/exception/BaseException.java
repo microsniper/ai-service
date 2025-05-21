@@ -1,4 +1,4 @@
-package com.sniper.leetcodereview.common.exception;
+package com.sniper.aiservice.common.exception;
 
 import lombok.Data;
 
