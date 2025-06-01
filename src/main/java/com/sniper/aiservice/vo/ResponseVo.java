@@ -1,4 +1,4 @@
-package com.sniper.aiservice.dto;
+package com.sniper.aiservice.vo;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,15 +9,15 @@ import java.io.Serializable;
 
 /**
  * sniper
- * 2025/5/20 下午5:01
+ * 2025/5/30 下午6:03
  */
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class RequestDto implements Serializable {
+public class ResponseVo implements Serializable {
 
-    private String question;
+    private String answer;
 
     private String sessionId;
 }
